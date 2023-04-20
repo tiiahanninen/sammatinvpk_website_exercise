@@ -1,0 +1,155 @@
+html, body {
+    background-color: whitesmoke;
+}
+.navbar {
+    padding: .1rem;
+    transition: all .50s ease;
+}
+.navbar-nav li {
+    padding-right: 40px;
+    width:100%
+}
+
+.nav-link {
+    font-size: 1.5em !important;
+}
+
+#Home {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #36454f;
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/asema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+    text-align: center;
+    padding-top: 5cm;
+    color: whitesmoke;
+    width:100%
+}
+
+.landing-text h1 {
+    font-size: 500%;
+}
+
+.lead {
+    color: #36454f;
+    font-size: 150%;
+}
+
+.display-2 {
+    font-size: 70px;
+    font-weight:400;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.logo {
+    padding: 10px;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.welcome {
+    color:#36454f;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: rgb(167, 0, 0);
+    color:whitesmoke;
+    padding-top: 3rem;
+}
+
+.second {
+    background-color: whitesmoke;
+    color: #36454f;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.second img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.third {
+    background-color: whitesmoke;
+    color: #36454f;
+    width: 100%;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 40px;
+}
+
+.fourth {
+    background-color: whitesmoke;
+    color: #36454f;
+    width: 100%;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 40px;
+}
+
+.fifth{
+    background-color: whitesmoke;
+    color: #36454f;
+    width: 100%;
+    margin: 5%;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 40px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container { 
+    display: grid;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+article.equipement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    color: #36454f;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+article img {
+    width: 100%;
+    border: 2px solid #ffffff
+}
+
+.display-2 {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+}
