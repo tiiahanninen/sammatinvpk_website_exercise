@@ -22,11 +22,11 @@ html, body {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/asema.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 88%;
+    background-position: 50%;
     text-align: center;
     padding-top: 5cm;
     color: whitesmoke;
-    width:100%
+    word-wrap: break-word;
 }
 
 .landing-text h1 {
@@ -39,7 +39,6 @@ html, body {
 }
 
 .display-2 {
-    font-size: 70px;
     font-weight:400;
     text-shadow: 1px 1px 10px #000;
 }
