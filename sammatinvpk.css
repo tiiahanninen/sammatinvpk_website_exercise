@@ -96,13 +96,13 @@ footer {
 .fourth {
     background-color: whitesmoke;
     color: #36454f;
-    width: 100%;
+    width:  100%;
     padding-top: 7rem;
     margin-bottom: 2rem;
     display: grid;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
-    border-bottom: 40px;
+    border-bottom: 20px;
 }
 
 .fifth{
@@ -135,7 +135,7 @@ article.equipement {
     color: #36454f;
     border: 2px solid #ffffff;
     border-radius: 5px;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 article img {
